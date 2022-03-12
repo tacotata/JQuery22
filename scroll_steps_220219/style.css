@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  ul, ol, li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  section#box1 {
+    background: aqua;
+  }
+  section#box2 {
+    background: lightgreen;
+  }
+  section#box3 {
+    background: orange;
+  }
+  section#box4 {
+    background: hotpink;
+  }
+  
+  #navi {
+    position: fixed;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  #navi li {
+    margin: 20px 0px;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  #navi li.on {
+    background: #111;
+    height: 100px;
+  }
+  
+  /*# sourceMappingURL=style.css.map */
