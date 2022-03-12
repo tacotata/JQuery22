@@ -1,0 +1,69 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.del {
+  display: inline-block;
+  padding: 10px 30px;
+  background: linear-gradient(45deg, aqua, #7cdaff);
+  box-shadow: 5px 5px 20px rgba(0, 255, 255, 0.5);
+  font: bold 14px/1 "arial";
+  color: #fff;
+  margin: 50px;
+  border-radius: 5px;
+}
+
+.view {
+  display: inline-block;
+  padding: 10px 30px;
+  background: linear-gradient(45deg, hotpink, #f3008e);
+  box-shadow: 5px 5px 20px rgba(255, 105, 180, 0.5);
+  font: bold 14px/1 "arial";
+  color: #fff;
+  margin: 50px;
+  border-radius: 5px;
+}
+
+#popup {
+  width: 500px;
+  padding: 40px;
+  background: linear-gradient(45deg, lightgreen, #00ffc8);
+  box-shadow: 5px 5px 30px rgba(144, 238, 144, 0.9);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+}
+#popup .content {
+  width: 100%;
+  min-height: 150px;
+  font: 30px/1.2 "arial";
+  color: #fff;
+}
+#popup .check {
+  display: inline-flex;
+  align-items: center;
+}
+#popup .check label {
+  color: #fff;
+  margin-left: 10px;
+}
+#popup .close {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

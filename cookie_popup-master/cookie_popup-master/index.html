@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookie Popup</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="pop.js"></script>
+</head>
+<body>
+  <a href="#" class="del">delete cookie</a>
+  <a href="#" class="view">view cookie</a>
+
+  <aside id="popup">
+    <div class="content">HELLO</div>
+    <div class="check">
+      <input type="checkbox" id="ck">
+      <label for="ck">오늘하루 그만보기</label>
+    </div>
+   <a href="#" class="close">close</a>
+  </aside>
+  <script>
+    new CookiePop('#popup',{
+      cookieName: 'today',
+      cookieValue: 'done'
+    })
+  </script>
+</body>
+</html>
